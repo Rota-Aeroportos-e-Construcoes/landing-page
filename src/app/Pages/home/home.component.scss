@@ -1,0 +1,22 @@
+.home {
+  height: 100vh;
+  margin: 0;
+}
+
+.home-image{
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 48em) {
+  .home {
+    height: 98vh;
+    margin: 0;
+  }
+
+  .home-image{
+    position: absolute;
+  }
+
+}
+
