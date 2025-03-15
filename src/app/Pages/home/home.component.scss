@@ -8,6 +8,36 @@
   width: 100%;
 }
 
+.home-text{
+  position: absolute;
+  bottom: 71%;
+  left: 10%;
+  width: 42%;
+}
+
+.home-text p{
+  color: white;
+  font-size: 25px;
+}
+
+.home-text .home-tittle,
+{
+  font-weight: 800; /* Poppins Thin */
+  font-family: poppins, "Segoe UI Light" ;
+  letter-spacing: 0.05em;
+  display: block;
+  font-size: 35px;
+}
+
+.home-text .home-txt,
+{
+  font-weight: 100; /* Poppins Thin */
+  font-family: poppins, "Segoe UI Light" ;
+  letter-spacing: 0.05em;
+  display: block
+}
+
+
 @media (max-width: 48em) {
   .home {
     height: 98vh;

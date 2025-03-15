@@ -3,3 +3,47 @@
   background: #092039;
   height: 100vh;
 }
+
+
+
+.tittle-vision{
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  bottom: 40%;
+  left: 10%;
+  display: block;
+}
+
+.tittle {
+  font-family: poppins, "Segoe UI Black" ;
+  font-weight: 800;
+  font-size: 60px;
+  color: white;
+  display: block
+}
+
+
+.text-vision{
+  position: relative;
+  width: 70%;
+  top: 144px;
+  left: 10%;
+  color:white;
+  font-family: poppins, "Segoe UI Light" ;
+  font-weight: 150;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.txt-vision {
+  width: 65%;
+}
+
+.pista-image{
+  position: absolute;
+  width: 35%;
+  bottom:30%;
+  left: 60%;
+}
+
