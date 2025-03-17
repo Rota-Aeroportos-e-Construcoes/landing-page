@@ -3,7 +3,7 @@
 footer {
   position: relative;
   background: #0c092c;
-  height: 45vh;
+  height: 75vh;
   color: #fff;
   font-family: "Exo", sans-serif;
 }
@@ -12,7 +12,7 @@ hr {
   border: 0;
   border-top: 1px solid #297be5;
   margin: 0 auto 1.5rem;
-  width: 80%;
+  width: 70%;
 }
 
 p {
@@ -38,14 +38,17 @@ a:hover {
 ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-top: 10px;
+  gap: 25px;
+  font-weight: 400;
 }
 
 .header-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  margin: 10px 0 20px;
+  margin: 10px 0 40px;
+  padding-top: 100px;
 }
 .fone {
   position: relative;
@@ -54,8 +57,8 @@ ul {
 .contact-info {
   display: flex;
   align-items: center;
-  margin: 1.5rem 0;
-  padding-left: 200px;
+  margin: 2.5rem 0;
+  padding-left: 400px;
 }
 
 .contact-info h2 {
@@ -74,7 +77,7 @@ ul {
   justify-content: center;
   gap: 20px;
   position: relative;
-  right: 20px;
+  right: 250px;
 }
 
 .social-icons img:hover {
@@ -87,13 +90,14 @@ ul {
   background-color: #297be5;
   margin: 0 auto;
   position: relative;
-  top: 20px;
+  top: 40px;
 }
 
 .body-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .about-section {
@@ -102,7 +106,7 @@ ul {
   margin: 1.5rem auto;
   line-height: 1.2;
   position: relative;
-  left: 100px;
+  left: 200px;
 }
 
 .about-section p {
@@ -124,7 +128,7 @@ ul {
 .support-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
   gap: 10px;
 }
 
@@ -136,4 +140,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer-footer p {
+  font-weight: lighter;
 }
